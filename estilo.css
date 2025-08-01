@@ -1,0 +1,64 @@
+/*EJERCICO 1*/
+@media (min-width: 767px){
+    body{
+        background-color:#fefae0;
+        background-size: cover;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 10vh;
+    }
+
+    .content{
+        background-color: #669bbc;
+        border-radius: 5dvb;
+        margin: 2vh;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 2vh;
+        width: 50vh;
+    } 
+    p{
+        font-family: 'Courier New', Courier, monospace;
+        color: #001278;
+        text-align: center;
+        font-size: small;
+    }
+    .titulo{
+        font-size: 2.5vb;
+        color: #480000;
+        border-bottom: 2px solid #780000;
+    }
+
+    label{
+        font-family: 'Courier New', Courier, monospace;
+        margin: 1vh;
+        font-size: 2vh;
+        color: #000c78;
+        text-align: center;
+    }    
+    input {
+        padding: 1vh;
+        border: 2px solid #003049;
+        border-radius: 4dvh;
+        font-size: small;
+        font-family:'Times New Roman', Times, serif;
+        width: 15vh;
+        color: rgb(0, 51, 153);
+    }
+
+    button{
+    background-color: #f01826;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 2vh;
+    width: 30vh;
+    height: 10vh;
+    border-radius: 5dvb;
+    border-color: #780000;
+    cursor: pointer;
+    display: inline-block;
+    }
+}
